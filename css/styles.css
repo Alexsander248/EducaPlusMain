@@ -43,7 +43,82 @@ body {
   grid-template-columns: 1fr;
 }
 
+.grid-botao {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding-bottom: 2.5rem;
+  bottom: 0;
+  width: 100%;
+  height: 15vh;
+}
+
+.prim {
+  background: rgb(17, 17, 96);
+  background: linear-gradient(
+    180deg,
+    rgba(17, 17, 96, 0) 0%,
+    rgba(200, 107, 250, 1) 100%
+  );
+}
+
+.prim .btn-grid {
+  background-color: #c86bfa;
+}
+
+.seg {
+  background: rgb(17, 17, 96);
+  background: linear-gradient(180deg, rgba(17, 17, 96, 0) 0%, #ffd500);
+}
+
+.seg .btn-grid {
+  background-color: #ffd500;
+}
+
+.ter {
+  background: rgb(17, 17, 96);
+  background: linear-gradient(180deg, rgba(17, 17, 96, 0) 0%, #548c2f 100%);
+}
+
+.ter .btn-grid {
+  background-color: #548c2f;
+}
+
+.quar {
+  background: rgb(17, 17, 96);
+  background: linear-gradient(180deg, rgba(17, 17, 96, 0) 0%, #850a0a 100%);
+}
+
+.quar .btn-grid {
+  background-color: #850a0a;
+}
+
+.quar {
+  background: rgb(17, 17, 96);
+  background: linear-gradient(180deg, rgba(17, 17, 96, 0) 0%, #850a0a 100%);
+}
+
+.quin {
+  background: rgb(17, 17, 96);
+  background: linear-gradient(180deg, rgba(17, 17, 96, 0) 0%, #fa442a 100%);
+}
+
+.quin .btn-grid {
+  background-color: #fa442a;
+}
+
+.btn-grid {
+  border-radius: 5px;
+  padding: 0.5rem 3rem;
+  white-space: nowrap;
+
+  cursor: pointer;
+  color: white;
+}
+
 .grid-item {
+  position: relative;
   border-radius: 15px;
 }
 
