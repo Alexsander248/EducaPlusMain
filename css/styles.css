@@ -28,8 +28,10 @@
   --cor-fundo-sobre: #a2d6f9;
 }
 
-body {
+body,
+html {
   font-family: "Inter", sans-serif;
+  scroll-behavior: smooth;
 }
 
 /* -------                                         Parte Grid                                                        ------- */
