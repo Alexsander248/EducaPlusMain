@@ -1,0 +1,593 @@
+/* -------                                         Configurações Gerais                                                        ------- */
+
+@import url(header.css);
+@import url(footer.css);
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Noto+Sans:wght@400;700&family=Poppins:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Luckiest+Guy&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+:root {
+  --cor-da-barrinha1: rgb(190, 4, 4);
+  --cor-da-barrinha2: #ffb800;
+  --cor-da-section-brinde: #ffb800;
+  --cor-da-fonte-brindes: #fffff1;
+  --cor-fundo-botao-brinde: #a2d6f9;
+  --tamanho-barrinha: 3px;
+  --cor-do-block-botao-brinde: #ff1d1d;
+  --cor-interacao: #585858;
+  --cor-fundo-interacao: #d9d9d9;
+  --cor-nome-comentario: #000;
+  --cor-background-bloco-comentario: #ffffff;
+  --cor-do-tempo: #807878;
+  --fundo-botao-enviar: #548c2f;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+/* -------                                         Fim Configurações Gerais                                                        ------- */
+
+/* -------                                         Imagem Banner                                                        ------- */
+
+/* .banner {
+  background-image: url(/img/historia2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 30vh;
+  display: grid;
+  place-items: center;
+  color: blue;
+} */
+
+.imagem-banner {
+  object-fit: cover;
+  width: 100%;
+  height: 300px;
+}
+
+/* -------                                         Fim Imagem Banner                                                        ------- */
+
+/* -------                                         Parte Sobre                                                        ------- */
+
+.sobre1 {
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1rem;
+}
+
+.titulo-banner-sobre1 {
+  text-align: center;
+  width: 50%;
+}
+
+.sobre2 {
+  position: relative;
+  padding: 0 1rem;
+  margin-bottom: 2rem;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  z-index: 3;
+}
+
+.titulo-banner-sobre2 {
+  width: 50%;
+}
+
+.barra {
+  width: 52%;
+  height: var(--tamanho-barrinha);
+  border-radius: 1rem;
+  background-color: var(--cor-da-barrinha1);
+  margin-bottom: 1rem;
+}
+.barra2 {
+  width: 40%;
+  height: var(--tamanho-barrinha);
+  border-radius: 1rem;
+  background-color: var(--cor-da-barrinha1);
+  margin-bottom: 1rem;
+}
+
+.imagem-sobre1 {
+  width: 100%;
+  border-radius: 1vh;
+  margin: 1rem 0 2.5rem 0;
+}
+
+.imagem-sobre2 {
+  display: none;
+}
+
+/* -------                                        Fim Parte Sobre                                                        ------- */
+
+/* -------                                        Parte Brinde                                                        ------- */
+
+.brinde {
+  color: var(--cor-da-fonte-brindes);
+  display: flex;
+  position: relative;
+  align-items: center;
+  background-color: var(--cor-da-section-brinde);
+  flex-direction: column;
+  font-family: "Luckiest Guy", cursive;
+}
+
+.amarelo {
+  position: relative;
+}
+.img-brinde {
+  width: 100%;
+}
+.img-brinde2 {
+  display: none;
+}
+
+.img-brinde3 {
+  display: none;
+}
+
+.resgatar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+  background-color: var(--cor-da-section-brinde);
+  height: 100%;
+}
+
+.texto-brinde {
+  width: 90%;
+  margin-top: 1.5rem;
+  text-align: center;
+  font-weight: 300;
+}
+
+.btn {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.botao-brinde {
+  background-color: var(--cor-fundo-botao-brinde);
+  padding: 0.2rem 3rem;
+  border-radius: 5px;
+  color: var(--cor-da-fonte-brindes);
+  padding-top: 8px;
+}
+
+.block {
+  position: absolute;
+  top: -8px;
+  right: -5px;
+  color: var(--cor-do-block-botao-brinde);
+}
+
+/* -------                                         Fim Parte Brinde                                                        ------- */
+
+/* -------                                         Parte Video                                                       ------- */
+
+.video {
+  margin-top: 1rem;
+  padding: 0 1rem;
+  color: var(--cor-interacao);
+}
+
+.video2 {
+  display: none;
+}
+
+.player {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.video p {
+  padding-top: 8px;
+  margin-bottom: 2rem;
+}
+
+.video h3 {
+  color: #000;
+}
+
+/* -------                                         Fim Parte Video                                                       ------- */
+
+/* -------                                         Parte Comentarios                                                       ------- */
+
+.interacao {
+  background-color: var(--cor-fundo-interacao);
+  padding: 3rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.7rem;
+}
+
+.chat-container {
+  height: 600px;
+  overflow-y: auto;
+}
+
+.titulo-chat {
+  font-family: "Luckiest Guy", cursive;
+  font-size: 25px;
+  color: var(--cor-interacao);
+  margin-bottom: 2rem;
+}
+
+.chat {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.perfil {
+  display: flex;
+  align-items: center;
+}
+.foto-perfil {
+  width: 8vh;
+  height: 8vh;
+  border-radius: 50%;
+}
+
+.mensagem {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.nome-tempo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nome {
+  font-size: 1rem;
+  color: var(--cor-nome-comentario);
+}
+
+.tempo {
+  margin-top: 3px;
+  font-size: 0.8rem;
+  color: var(--cor-do-tempo);
+}
+
+.bloco-comentario {
+  background-color: var(--cor-background-bloco-comentario);
+  display: flex;
+  border-radius: 12px;
+  padding: 10px 5px;
+  gap: 0.6rem;
+}
+
+.comentario-texto {
+  font-size: 13px;
+}
+
+.reacao {
+  /* Parte Azul */
+  background-color: var(--cor-fundo-botao-brinde);
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  border-radius: 12px;
+}
+
+.curtidas {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 1rem;
+  margin: 0.5rem 0;
+  padding-right: 1rem;
+}
+
+.curtidas div {
+  display: flex;
+  align-items: center;
+
+  padding-bottom: 5px;
+}
+
+.branca {
+  background-color: #fff;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.box-pesquisa {
+  width: 100%;
+  display: flex;
+}
+
+.input {
+  height: 60px;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding-left: 1rem;
+  font-size: 17px;
+}
+
+.botao-enviar {
+  display: grid;
+  width: 70px;
+  height: 100%;
+  border-radius: 10px;
+  place-items: center;
+  background-color: var(--fundo-botao-enviar);
+}
+
+.input::placeholder {
+  font-family: "Luckiest Guy", cursive;
+}
+
+.aviao {
+  font-size: 2rem;
+  color: #fff;
+}
+
+/* -------                                         Fim Parte Comentarios                                                       ------- */
+
+/* Responsivo Tablet */
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+  .search {
+    display: block;
+  }
+
+  .sobre1-content {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+  .sobre2-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .subtitulo-mob {
+    display: none;
+  }
+
+  .imagem-sobre2 {
+    display: block;
+  }
+  .imagem-sobre1 {
+    width: 50vh;
+    height: 100%;
+    margin: 1rem 1rem 0 0rem;
+  }
+
+  .imagem-sobre2 {
+    width: 50vh;
+    height: 100%;
+    border-radius: 1vh;
+    margin: 1rem 1rem 0 1rem;
+  }
+
+  .brinde {
+    display: flex;
+    flex-direction: row-reverse;
+    overflow-y: hidden;
+    position: relative;
+  }
+  .resgatar {
+    display: flex;
+    width: 100%;
+    z-index: 3;
+  }
+
+  .img-brinde {
+    display: none;
+  }
+
+  .img-brinde2 {
+    width: 60vh;
+    height: 100%;
+    display: block;
+  }
+
+  .img-brinde3 {
+    position: absolute;
+    width: 40vh;
+    right: -11rem;
+    top: -6rem;
+    display: block;
+  }
+
+  .texto-brinde {
+    width: 90%;
+    margin-top: 1.5rem;
+    text-align: center;
+    font-size: 2rem;
+    z-index: 3;
+  }
+
+  .botao-brinde {
+    font-size: 1.7rem;
+  }
+
+  .video {
+    display: none;
+  }
+
+  .video2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .player {
+    width: 35vh;
+    border-radius: 15px;
+  }
+
+  .interacao {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: var(--cor-fundo-botao-brinde);
+  }
+
+  .chat {
+    background-color: var(--cor-fundo-interacao);
+    padding: 1rem;
+  }
+  .chat-container {
+    border-radius: 15px;
+    height: 50vh;
+  }
+  .play-titulo {
+    display: none;
+  }
+  .video2 h3 {
+    font-family: "Luckiest Guy", cursive;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 100;
+  }
+}
+
+/* Responsivo Desktop */
+@media screen and (min-width: 1024px) {
+  .banner {
+    height: 60vh;
+  }
+
+  .sobre1-content {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    font-size: 1.2rem;
+    margin: 1rem;
+  }
+  .sobre2-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.2rem;
+    margin: 1rem;
+  }
+
+  .subtitulo-mob {
+    display: none;
+  }
+
+  .imagem-sobre2 {
+    display: block;
+  }
+  .imagem-sobre1 {
+    width: 50%;
+    height: 100%;
+    margin: 0 1rem 1rem 0;
+  }
+
+  .imagem-sobre2 {
+    width: 50%;
+    height: 40%;
+    border-radius: 1vh;
+    margin: 0 0 0 1rem;
+  }
+
+  .brinde {
+    display: flex;
+    flex-direction: row-reverse;
+    overflow-y: hidden;
+    position: relative;
+  }
+  .resgatar {
+    display: flex;
+    width: 100%;
+    z-index: 3;
+  }
+
+  .img-brinde {
+    display: none;
+  }
+
+  .img-brinde2 {
+    width: 40%;
+    height: 100%;
+    display: block;
+  }
+
+  .img-brinde3 {
+    position: absolute;
+    right: -12rem;
+    width: 57vh;
+    top: -11rem;
+    display: block;
+  }
+
+  .texto-brinde {
+    width: 90%;
+    margin-top: 1.5rem;
+    text-align: center;
+    font-size: 3rem;
+    z-index: 3;
+  }
+
+  .botao-brinde {
+    font-size: 1.6rem;
+  }
+
+  .video {
+    display: none;
+  }
+
+  .video2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .player {
+    width: 60vh;
+    border-radius: 15px;
+  }
+  .video2 p {
+    width: 60vh;
+  }
+
+  .interacao {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: var(--cor-fundo-botao-brinde);
+  }
+
+  .chat {
+    background-color: var(--cor-fundo-interacao);
+    padding: 1rem;
+  }
+  .chat-container {
+    border-radius: 15px;
+    height: 50vh;
+  }
+  .play-titulo {
+    display: none;
+  }
+  .video2 h3 {
+    font-family: "Luckiest Guy", cursive;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 100;
+  }
+
+  .imagem-banner {
+    object-fit: cover;
+    width: 100%;
+    height: 60vh;
+  }
+}
