@@ -15,8 +15,11 @@
     <link rel="stylesheet" href="css/formulario.css" />
     <link rel="shortcut icon" href="img/icone2.ico" />
     <script src="js/animar.js" defer></script>
+    <script src="js/formulario.js" defer></script>
     <title>Educa+</title>
   </head>
+
+  <body>
 
   <!--Barra topo-->
 
@@ -61,13 +64,16 @@
     <!--Fim Barra Topo-->
   </header>
 
-  <body>
+  
 
-  </header>
-  <!-- End Header -->
+
+  
 
   <!-- Start Select -->
-  <section class="select-container">
+  <section class="banner-select">
+    <div class="banner-titulo"><h2>Escolha o Tema</h2></div>
+    
+  <div class="select-container">
       <select name="Temas" id="">
           <option value="0">Nazismo</option>
           <option value="1">Racismo</option>
@@ -76,22 +82,23 @@
       <div class="icon-container">
           <i class="fas fa-sort-down"></i>
       </div>
-  </section>
+  </div>
+</section>
   <!-- End Select -->
 
   <main>
       <section class="forms" id="nazismo">
 
-      <div class="questions-box" id="question-1">
+      <div class="questions-box" >
           <div class="title-questions"><p>Quem foi o líder do partido nazista durante a Segunda Guerra Mundial?
           </p></div>
-          <form action="">
+          <form id="question-1" action="">
 
-              <input type="radio" name="question-1" id="">
+              <input type="radio" value="acertou" name="question-1" id="certa">
               <label for="question-1">Adolf Hitler
               </label>
 
-              <input type="radio" name="question-1" id="">
+              <input type="radio" value="errou" name="question-1" id="">
               <label for="question-1">Benito Mussolini
               </label>
 
@@ -107,179 +114,179 @@
       </div>
 
       <div class="questions-box" id="question-2">
-          <div class="title-questions" id="title-formulario-2"><p>Pergunta 2</p></div>
+          <div class="title-questions" id="title-formulario-2"><p>Qual ideologia política estava associada ao nazismo?</p></div>
           <form action="">
 
               <input type="radio" name="question-1" id="">
-              <label for="question-1">Resposta 1</label>
+              <label for="question-1">Comunismo</label>
 
               <input type="radio" name="question-1" id="">
-              <label for="question-1">Resposta 2</label>
+              <label for="question-1">Fascismo</label>
 
               <input type="radio" name="question-1" id="">
-              <label for="question-1">Resposta 3</label>
+              <label for="question-1">Liberalismo</label>
 
               <input type="radio" name="question-1" id="">
-              <label for="question-1">Resposta 4</label>
+              <label for="question-1">Anarquismo</label>
               
           </form>
       </div>
 
       <div class="questions-box" id="question-3">
-          <div class="title-questions" id="title-formulario-3"><p>Pergunta 3</p></div>
+          <div class="title-questions" id="title-formulario-3"><p>Em que país o nazismo teve origem?</p></div>
           <form action="">
 
               <input type="radio" name="question-1" id="">
-              <label for="question-1">Resposta 1</label>
+              <label for="question-1">Alemanha</label>
 
               <input type="radio" name="question-1" id="">
-              <label for="question-1">Resposta 2</label>
+              <label for="question-1">Itália</label>
 
               <input type="radio" name="question-1" id="">
-              <label for="question-1">Resposta 3</label>
+              <label for="question-1">União Soviética</label>
 
               <input type="radio" name="question-1" id="">
-              <label for="question-1">Resposta 4</label>
+              <label for="question-1">Estados Unidos</label>
               
           </form>
       </div>
 
       <div class="questions-box" id="question-4">
-          <div class="title-questions" id="title-formulario-4"><p>Pergunta 4</p></div>
+          <div class="title-questions" id="title-formulario-4"><p>Qual era a política racial defendida pelos nazistas?</p></div>
           <form action="">
 
               <input type="radio" name="question-1" id="">
-              <label for="question-1">Resposta 1</label>
+              <label for="question-1">Igualdade racial</label>
 
               <input type="radio" name="question-1" id="">
-              <label for="question-1">Resposta 2</label>
+              <label for="question-1">Integração racial</label>
 
               <input type="radio" name="question-1" id="">
-              <label for="question-1">Resposta 3</label>
+              <label for="question-1">Supremacia racial</label>
 
               <input type="radio" name="question-1" id="">
-              <label for="question-1">Resposta 4</label>
+              <label for="question-1">Coexistência racial</label>
               
           </form>
       </div>
       
       <div class="questions-box" id="question-5">
-          <div class="title-questions" id="title-formulario-5"><p>Pergunta 5</p></div>
+          <div class="title-questions" id="title-formulario-5"><p>Qual evento marcou o início da Segunda Guerra Mundial?</p></div>
           <form action="">
 
               <input type="radio" name="question-1" id="">
-              <label for="question-1">Resposta 1</label>
+              <label for="question-1">Ataque a Pearl Harbor</label>
 
               <input type="radio" name="question-1" id="">
-              <label for="question-1">Resposta 2</label>
+              <label for="question-1">Invasão da Polônia</label>
 
               <input type="radio" name="question-1" id="">
-              <label for="question-1">Resposta 3</label>
+              <label for="question-1">Queda de Berlim</label>
 
               <input type="radio" name="question-1" id="">
-              <label for="question-1">Resposta 4</label>
+              <label for="question-1">Bombas atômicas em Hiroshima e Nagasaki</label>
               
           </form>
       </div>
 
       <div class="questions-box" id="question-6">
-          <div class="title-questions" id="title-formulario-6"><p>Pergunta 6</p></div>
+          <div class="title-questions" id="title-formulario-6"><p>O que foi o Holocausto?</p></div>
           <form action="">
 
               <input type="radio" name="question-1" id="">
-              <label for="question-1">Resposta 1</label>
+              <label for="question-1">Uma guerra civil na Alemanha</label>
 
               <input type="radio" name="question-1" id="">
-              <label for="question-1">Resposta 2</label>
+              <label for="question-1">O período de governo de Adolf Hitler</label>
 
               <input type="radio" name="question-1" id="">
-              <label for="question-1">Resposta 3</label>
+              <label for="question-1">O extermínio em massa de milhões de judeus e outros grupos</label>
 
               <input type="radio" name="question-1" id="">
-              <label for="question-1">Resposta 4</label>
+              <label for="question-1"> A construção de campos de concentração na Europa</label>
               
           </form>
       </div>
 
       <div class="questions-box" id="question-7">
-          <div class="title-questions" id="title-formulario-7"><p>Pergunta 7</p></div>
+          <div class="title-questions" id="title-formulario-7"><p>Qual foi o resultado final da Segunda Guerra Mundial?</p></div>
           <form action="">
 
               <input type="radio" name="question-1" id="">
-              <label for="question-1">Resposta 1</label>
+              <label for="question-1">Vitória dos Aliados</label>
 
               <input type="radio" name="question-1" id="">
-              <label for="question-1">Resposta 2</label>
+              <label for="question-1">Vitória dos nazistas</label>
 
               <input type="radio" name="question-1" id="">
-              <label for="question-1">Resposta 3</label>
+              <label for="question-1">Empate</label>
 
               <input type="radio" name="question-1" id="">
-              <label for="question-1">Resposta 4</label>
+              <label for="question-1">Rendição incondicional de todas as nações</label>
               
           </form>
       </div>
 
       <div class="questions-box" id="question-8">
-          <div class="title-questions" id="title-formulario-8"><p>Pergunta 8</p></div>
+          <div class="title-questions" id="title-formulario-8"><p>Qual tribunal foi estabelecido para julgar os líderes nazistas após a guerra?</p></div>
           <form action="">
 
               <input type="radio" name="question-1" id="">
-              <label for="question-1">Resposta 1</label>
+              <label for="question-1">Tribunal de Nuremberg</label>
 
               <input type="radio" name="question-1" id="">
-              <label for="question-1">Resposta 2</label>
+              <label for="question-1">Tribunal de Haia</label>
 
               <input type="radio" name="question-1" id="">
-              <label for="question-1">Resposta 3</label>
+              <label for="question-1">Tribunal Internacional de Justiça</label>
 
               <input type="radio" name="question-1" id="">
-              <label for="question-1">Resposta 4</label>
+              <label for="question-1"> Tribunal Penal Internacional</label>
               
           </form>
       </div>
       
       <div class="questions-box" id="question-9">
-          <div class="title-questions" id="title-formulario-9"><p>Pergunta 9</p></div>
+          <div class="title-questions" id="title-formulario-9"><p>Qual foi o impacto do nazismo no mundo?</p></div>
           <form action="">
 
               <input type="radio" name="question-1" id="">
-              <label for="question-1">Resposta 1</label>
+              <label for="question-1">Fortalecimento das relações internacionais</label>
 
               <input type="radio" name="question-1" id="">
-              <label for="question-1">Resposta 2</label>
+              <label for="question-1">Avanços tecnológicos significativos</label>
 
               <input type="radio" name="question-1" id="">
-              <label for="question-1">Resposta 3</label>
+              <label for="question-1">Conscientização sobre os direitos humanos e prevenção de genocídios</label>
 
               <input type="radio" name="question-1" id="">
-              <label for="question-1">Resposta 4</label>
+              <label for="question-1"> Aumento da desigualdade social</label>
               
           </form>
       </div>
 
       <div class="questions-box" id="question-10">
-          <div class="title-questions" id="title-formulario-10"><p>Pergunta 10</p></div>
+          <div class="title-questions" id="title-formulario-10"><p> Por que é importante lembrar e estudar sobre o nazismo?</p></div>
           <form action="">
 
               <input type="radio" name="question-1" id="">
-              <label for="question-1">Resposta 1</label>
+              <label for="question-1">Para promover o ódio e a discriminação</label>
 
               <input type="radio" name="question-1" id="">
-              <label for="question-1">Resposta 2</label>
+              <label for="question-1">Para entender as causas e consequências dos conflitos mundiais</label>
 
               <input type="radio" name="question-1" id="">
-              <label for="question-1">Resposta 3</label>
+              <label for="question-1">Para glorificar líderes autoritários</label>
 
               <input type="radio" name="question-1" id="">
-              <label for="question-1">Resposta 4</label>
+              <label for="question-1">Para negar a ocorrência do Holocausto</label>
               
           </form>
       </div>
 
       <div class="buttons">
           <a href="index.html">Voltar</a>
-          <button>Enviar</button>
+          <button id="btn-nazismo">Enviar</button>
       </div>
       </section>
 
@@ -1088,6 +1095,8 @@
                   
               </form>
           </div>
+
+      </section>
     <!--Fim Quarta Parte-->
     
   </body>
