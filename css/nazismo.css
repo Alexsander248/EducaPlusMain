@@ -65,6 +65,8 @@ body {
   flex-direction: column;
   align-items: center;
   padding-top: 1rem;
+  max-width: 1134px;
+  margin: 0 auto;
 }
 
 .titulo-banner-sobre1 {
@@ -79,6 +81,8 @@ body {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   z-index: 3;
+  max-width: 1134px;
+  margin: 0 auto;
 }
 
 .titulo-banner-sobre2 {
@@ -136,6 +140,7 @@ body {
 
 .img-brinde3 {
   display: none;
+  height: 500px;
 }
 
 .resgatar {
@@ -378,7 +383,7 @@ body {
     width: 50vh;
     height: 100%;
     border-radius: 1vh;
-    margin: 1rem 1rem 0 1rem;
+    margin: 1rem;
   }
 
   .brinde {
@@ -405,7 +410,7 @@ body {
 
   .img-brinde3 {
     position: absolute;
-    width: 40vh;
+    height: 400px;
     right: -11rem;
     top: -6rem;
     display: block;
@@ -529,7 +534,7 @@ body {
   .img-brinde3 {
     position: absolute;
     right: -12rem;
-    width: 57vh;
+    height: 600px;
     top: -11rem;
     display: block;
   }
