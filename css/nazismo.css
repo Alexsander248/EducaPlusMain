@@ -350,6 +350,11 @@ body {
   width: 200px;
 }
 
+.btn-barra {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
 /* -------                                         Fim Parte Comentarios                                                       ------- */
 
 /* Responsivo Tablet */

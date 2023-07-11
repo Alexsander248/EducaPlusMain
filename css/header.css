@@ -25,6 +25,15 @@
   display: none;
 }
 
+.gtranslate_wrapper {
+  width: 200px;
+}
+
+.btn-barra {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
 /* estilização do menu-mobile */
 
 .seta {
@@ -185,5 +194,8 @@
     color: var(--cor-do-nome-da-logo);
 
     font-size: 1.2rem;
+  }
+  .traduz {
+    display: none;
   }
 }
