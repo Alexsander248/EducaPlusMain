@@ -13,6 +13,17 @@ const formEspecismo = document.querySelector("#especismo"); // Formulario de esp
 const formXenofobia = document.querySelector("#xenofobia"); // Formulario de xenofobia
 const formIntolerancia = document.querySelector("#intolerancia"); // Formulario de intolerancia religiosa
 
+window.addEventListener("load", () => {
+  select.value = "6";
+  if (select.value === "6") {
+    formNazismo.style.display = "none";
+    formEspecismo.style.display = "none";
+    formRacismo.style.display = "none";
+    formXenofobia.style.display = "none";
+    formIntolerancia.style.display = "none";
+  }
+});
+
 /* Código para fazer a lista selecionada aparecer*/
 select.addEventListener("change", (event) => {
   if (event.target.value === "0") {
@@ -49,6 +60,12 @@ select.addEventListener("change", (event) => {
     formRacismo.style.display = "none";
     formNazismo.style.display = "none";
     formXenofobia.style.display = "none";
+  } else {
+    formNazismo.style.display = "none";
+    formEspecismo.style.display = "none";
+    formRacismo.style.display = "none";
+    formXenofobia.style.display = "none";
+    formIntolerancia.style.display = "none";
   }
 });
 
