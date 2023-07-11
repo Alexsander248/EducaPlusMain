@@ -69,11 +69,6 @@ body {
   margin: 0 auto;
 }
 
-.titulo-banner-sobre1 {
-  text-align: center;
-  width: 50%;
-}
-
 .sobre2 {
   position: relative;
   padding: 0 1rem;
@@ -83,6 +78,11 @@ body {
   z-index: 3;
   max-width: 1134px;
   margin: 0 auto;
+}
+
+.titulo-banner-sobre1 {
+  text-align: center;
+  width: 50%;
 }
 
 .titulo-banner-sobre2 {

@@ -415,9 +415,9 @@ html {
 
   .img-brinde3 {
     position: absolute;
-    width: 40vh;
-    right: -11rem;
-    top: -6rem;
+    right: -12rem;
+    height: 600px;
+    top: -11rem;
     display: block;
   }
 
@@ -501,7 +501,7 @@ html {
   .img-brinde3 {
     position: absolute;
     right: -12rem;
-    width: 57vh;
+    width: 600px;
     top: -11rem;
     display: block;
   }
