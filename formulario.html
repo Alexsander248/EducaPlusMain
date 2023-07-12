@@ -16,6 +16,10 @@
     <link rel="shortcut icon" href="img/icone2.ico" />
     <script src="js/animar.js" defer></script>
     <script src="js/formulario.js" defer></script>
+    <script
+      src="https://cdn.gtranslate.net/widgets/latest/popup.js"
+      defer
+    ></script>
     <title>Educa+</title>
   </head>
 
@@ -30,15 +34,18 @@
         <a href="index.html" class="texto-logo">Educa+</a>
       </div>
 
-      <div class="btn-menu-mobile">
-        <div class="barrinha"></div>
-        <div class="barrinha"></div>
-        <div class="barrinha"></div>
+      <div class="btn-barra">
+        <div class="btn-menu-mobile">
+          <div class="barrinha"></div>
+          <div class="barrinha"></div>
+          <div class="barrinha"></div>
+        </div>
+        <div class="gtranslate_wrapper traduz"></div>
       </div>
 
       <div class="navegacao">
         <ul class="nav-menu">
-          <li class="item"><a href="#btn-sobre">Sobre</a></li>
+          <li class="item"><a href="">Sobre</a></li>
 
           <li class="item"><a href="">Instituto</a></li>
 
@@ -46,10 +53,12 @@
             <a href="#">Cursos </a><i class="fa-solid fa-chevron-down seta"></i>
           </li>
         </ul>
+
+        <div class="gtranslate_wrapper"></div>
       </div>
       <div class="navegacao-mobile">
         <ul class="nav-menu">
-          <li class="item"><a href="index.html">Sobre</a></li>
+          <li class="item"><a href="">Sobre</a></li>
 
           <li class="item"><a href="">Instituto</a></li>
 
@@ -310,11 +319,13 @@
       <section class="forms" id="racismo">
         <div class="questions-box" id="question-1">
           <div class="title-questions">
-            <p>AAAAAAAAAAAAAAAAAAAAAAAA AAAAAAAAAAAAAAAAAAAAA</p>
+            <p>Qual é a definição de racismo?</p>
           </div>
           <form action="">
-            <input type="radio" name="question-1" id="" />
-            <label for="question-1">Adolf Hitler </label>
+            <input type="radio" name="question-1" id="rac1" />
+            <label for="question-1">
+              Preconceito ou discriminação baseado em raça</label
+            >
 
             <input type="radio" name="question-1" id="" />
             <label for="question-1">Benito Mussolini </label>
@@ -329,172 +340,233 @@
 
         <div class="questions-box" id="question-2">
           <div class="title-questions" id="title-formulario-2">
-            <p>Pergunta 2</p>
+            <p>O racismo é:</p>
           </div>
           <form action="">
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 1</label>
+            <label for="question-1"
+              >Um problema histórico que não existe mais</label
+            >
+
+            <input type="radio" name="question-1" id="rac2" />
+            <label for="question-1">Uma questão apenas nos Estados Unido</label>
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 2</label>
+            <label for="question-1"
+              >Um problema social que persiste atualmente em diversas
+              sociedades</label
+            >
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 3</label>
-
-            <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 4</label>
+            <label for="question-1"
+              >Algo irrelevante para a convivência humana</label
+            >
           </form>
         </div>
 
         <div class="questions-box" id="question-3">
           <div class="title-questions" id="title-formulario-3">
-            <p>Pergunta 3</p>
+            <p>Qual é o impacto do racismo na vida das pessoas?</p>
           </div>
           <form action="">
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 1</label>
+            <label for="question-1">Nenhum impacto significativo</label>
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 2</label>
+            <label for="question-1">Impacto apenas econômico</label>
+
+            <input type="radio" name="question-1" id="rac3" />
+            <label for="question-1"
+              >Impacto emocional, psicológico e social</label
+            >
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 3</label>
-
-            <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 4</label>
+            <label for="question-1"
+              >Impacto apenas em grupos minoritários</label
+            >
           </form>
         </div>
 
         <div class="questions-box" id="question-4">
           <div class="title-questions" id="title-formulario-4">
-            <p>Pergunta 4</p>
+            <p>Qual é a melhor forma de combater o racismo?</p>
           </div>
           <form action="">
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 1</label>
+            <label for="question-1">Ignorar sua existência</label>
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 2</label>
+            <label for="question-1"
+              >Fazer piadas sobre raças para desmistificar preconceitos</label
+            >
+
+            <input type="radio" name="question-1" id="rac4" />
+            <label for="question-1"
+              >Promover a igualdade e a conscientização</label
+            >
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 3</label>
-
-            <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 4</label>
+            <label for="question-1"
+              >Excluir indivíduos que praticam o racismo</label
+            >
           </form>
         </div>
 
         <div class="questions-box" id="question-5">
           <div class="title-questions" id="title-formulario-5">
-            <p>Pergunta 5</p>
+            <p>O que é discriminação racial?</p>
           </div>
           <form action="">
-            <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 1</label>
+            <input type="radio" name="question-1" id="rac5" />
+            <label for="question-1"
+              >A preferência por uma raça em detrimento de outra</label
+            >
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 2</label>
+            <label for="question-1"
+              >A segregação racial em espaços públicos</label
+            >
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 3</label>
+            <label for="question-1"
+              >A promoção de igualdade de oportunidades para todas as
+              raças</label
+            >
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 4</label>
+            <label for="question-1">Nenhuma das opções acima</label>
           </form>
         </div>
 
         <div class="questions-box" id="question-6">
           <div class="title-questions" id="title-formulario-6">
-            <p>Pergunta 6</p>
+            <p>O que é racismo institucional?</p>
           </div>
           <form action="">
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 1</label>
+            <label for="question-1"
+              >A discriminação racial promovida por indivíduos</label
+            >
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 2</label>
+            <label for="question-1"
+              >A ausência de leis de combate ao racismo</label
+            >
+
+            <input type="radio" name="question-1" id="rac6" />
+            <label for="question-1"
+              >Práticas discriminatórias incorporadas nas estruturas e políticas
+              de uma instituição</label
+            >
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 3</label>
-
-            <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 4</label>
+            <label for="question-1">Nenhuma das opções acima</label>
           </form>
         </div>
 
         <div class="questions-box" id="question-7">
           <div class="title-questions" id="title-formulario-7">
-            <p>Pergunta 7</p>
+            <p>Por que é importante reconhecer e combater o racismo?</p>
           </div>
           <form action="">
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 1</label>
+            <label for="question-1">Porque todas as raças são iguais</label>
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 2</label>
+            <label for="question-1"
+              >Porque o racismo é ilegal em todos os países</label
+            >
+
+            <input type="radio" name="question-1" id="rac7" />
+            <label for="question-1"
+              >Porque o racismo prejudica a coesão social e viola os direitos
+              humanos</label
+            >
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 3</label>
-
-            <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 4</label>
+            <label for="question-1">Nenhuma das opções acima</label>
           </form>
         </div>
 
         <div class="questions-box" id="question-8">
           <div class="title-questions" id="title-formulario-8">
-            <p>Pergunta 8</p>
+            <p>Qual é a diferença entre racismo e preconceito?</p>
           </div>
           <form action="">
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 1</label>
+            <label for="question-1"
+              >Não há diferença, são termos sinônimos</label
+            >
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 2</label>
+            <label for="question-1"
+              >Racismo é baseado em raça, enquanto preconceito é baseado em
+              outras características</label
+            >
+
+            <input type="radio" name="question-1" id="rac8" />
+            <label for="question-1"
+              >Racismo é um tipo de preconceito relacionado à raça</label
+            >
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 3</label>
-
-            <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 4</label>
+            <label for="question-1">Nenhuma das opções acima</label>
           </form>
         </div>
 
         <div class="questions-box" id="question-9">
           <div class="title-questions" id="title-formulario-9">
-            <p>Pergunta 9</p>
+            <p>O que é privilégio branco?</p>
           </div>
           <form action="">
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 1</label>
+            <label for="question-1"
+              >A discriminação enfrentada por pessoas brancas</label
+            >
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 2</label>
+            <label for="question-1"
+              >A ideia de que a raça branca é superior</label
+            >
+
+            <input type="radio" name="question-1" id="rac9" />
+            <label for="question-1"
+              >As vantagens e benefícios sociais que pessoas brancas têm devido
+              ao seu pertencimento racial</label
+            >
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 3</label>
-
-            <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 4</label>
+            <label for="question-1">Nenhuma das opções acima</label>
           </form>
         </div>
 
         <div class="questions-box" id="question-10">
           <div class="title-questions" id="title-formulario-10">
-            <p>Pergunta 10</p>
+            <p>
+              Como podemos contribuir para a construção de uma sociedade livre
+              de racismo?
+            </p>
           </div>
           <form action="">
-            <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 1</label>
+            <input type="radio" name="question-1" id="rac10" />
+            <label for="question-1"
+              >Promovendo a diversidade e a inclusão em todas as áreas</label
+            >
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 2</label>
+            <label for="question-1"
+              >Desprezando as reivindicações dos grupos minoritários</label
+            >
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 3</label>
+            <label for="question-1">
+              Mantendo a segregação racial para preservar as culturas</label
+            >
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 4</label>
+            <label for="question-1"
+              >Ignorando completamente a existência do Racismo</label
+            >
           </form>
         </div>
 
@@ -507,191 +579,285 @@
       <section class="forms" id="especismo">
         <div class="questions-box" id="question-1">
           <div class="title-questions">
-            <p>aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</p>
+            <p>Qual é a definição correta de especismo?</p>
           </div>
           <form action="">
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Adolf Hitler </label>
+            <label for="question-1">
+              A crença de que todas as espécies são igualmente importantes e
+              merecem respeito.</label
+            >
+
+            <input type="radio" name="question-1" id="esp1" />
+            <label for="question-1"
+              >A crença de que certas espécies são superiores a outras e merecem
+              mais consideração</label
+            >
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Benito Mussolini </label>
+            <label for="question-1"
+              >A crença de que as espécies animais não têm direitos e podem ser
+              tratadas como objetos.</label
+            >
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Joseph Stalin </label>
-
-            <input type="radio" name="question-1" id="" />
-            <label for="question-1">Winston Churchill </label>
+            <label for="question-1">
+              A crença de que todas as espécies são irrelevantes e não merecem
+              nenhuma consideração.
+            </label>
           </form>
         </div>
 
         <div class="questions-box" id="question-2">
           <div class="title-questions" id="title-formulario-2">
-            <p>Pergunta 2</p>
+            <p>
+              Quais são os critérios utilizados pelos especistas para
+              discriminarem as espécies?
+            </p>
           </div>
           <form action="">
-            <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 1</label>
+            <input type="radio" name="question-1" id="esp2" />
+            <label for="question-1"
+              >Inteligência e capacidade de comunicação.</label
+            >
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 2</label>
+            <label for="question-1"> Aparência física e cor da pele.</label>
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 3</label>
+            <label for="question-1"> Religião e cultura.</label>
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 4</label>
+            <label for="question-1">Todas as anteriores</label>
           </form>
         </div>
 
         <div class="questions-box" id="question-3">
           <div class="title-questions" id="title-formulario-3">
-            <p>Pergunta 3</p>
+            <p>Por que o especismo é considerado uma forma de discriminação?</p>
           </div>
           <form action="">
-            <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 1</label>
+            <input type="radio" name="question-1" id="esp3" />
+            <label for="question-1"
+              >Porque trata certas espécies como inferiores e nega seus direitos
+              básicos.</label
+            >
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 2</label>
+            <label for="question-1"
+              >Porque afirma que todas as espécies são igualmente
+              importantes.</label
+            >
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 3</label>
+            <label for="question-1"
+              >Porque promove a igualdade entre as espécies e a diversidade
+              biológica.</label
+            >
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 4</label>
+            <label for="question-1"
+              >Porque prega a harmonia entre os seres vivos, independentemente
+              de sua espécie.</label
+            >
           </form>
         </div>
 
         <div class="questions-box" id="question-4">
           <div class="title-questions" id="title-formulario-4">
-            <p>Pergunta 4</p>
+            <p>Qual é a relação entre o especismo e o antropocentrismo?</p>
           </div>
           <form action="">
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 1</label>
+            <label for="question-1">
+              O antropocentrismo é a mesma coisa que especismo.</label
+            >
+
+            <input type="radio" name="question-1" id="esp4" />
+            <label for="question-1"
+              >O antropocentrismo é uma forma específica de especismo que coloca
+              humanos acima das outras espécies.</label
+            >
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 2</label>
+            <label for="question-1"
+              >O antropocentrismo é a crença de que todas as espécies são
+              igualmente valiosas.</label
+            >
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 3</label>
-
-            <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 4</label>
+            <label for="question-1"
+              >O especismo é a crença de que os humanos são superiores a todas
+              as outras espécies.</label
+            >
           </form>
         </div>
 
         <div class="questions-box" id="question-5">
           <div class="title-questions" id="title-formulario-5">
-            <p>Pergunta 5</p>
+            <p>Quais são os impactos negativos do especismo na sociedade?</p>
           </div>
           <form action="">
-            <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 1</label>
+            <input type="radio" name="question-1" id="esp5" />
+            <label for="question-1"
+              >Formenta a discriminação e a desigualdade entre espécies.</label
+            >
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 2</label>
+            <label for="question-1"
+              >Promove a preservação do meio ambiente e a coexistência
+              pacifíca.</label
+            >
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 3</label>
+            <label for="question-1"
+              >Aumenta a empatia e a compaixão entre os seres humanos</label
+            >
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 4</label>
+            <label for="question-1">Todas as anteriores.</label>
           </form>
         </div>
 
         <div class="questions-box" id="question-6">
           <div class="title-questions" id="title-formulario-6">
-            <p>Pergunta 6</p>
+            <p>
+              Quais são os argumentos utilizados pelos especistas para
+              justificar a exploração animal?
+            </p>
           </div>
           <form action="">
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 1</label>
+            <label for="question-1"
+              >Necessidade de alimentação e sobrevivência humana.</label
+            >
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 2</label>
+            <label for="question-1"
+              >Práticas culturais e tradições históricas.</label
+            >
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 3</label>
+            <label for="question-1"
+              >Entretenimento e esportes envolvendo animais.</label
+            >
 
-            <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 4</label>
+            <input type="radio" name="question-1" id="esp6" />
+            <label for="question-1">Todas as anteriores.</label>
           </form>
         </div>
 
         <div class="questions-box" id="question-7">
           <div class="title-questions" id="title-formulario-7">
-            <p>Pergunta 7</p>
+            <p>
+              Qual é a relação entre o especismo e a indústria de alimentos?
+            </p>
           </div>
           <form action="">
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 1</label>
+            <label for="question-1"
+              >O especismo é responsável pela conscientização sobre a
+              importância da alimentação vegana.</label
+            >
+
+            <input type="radio" name="question-1" id="esp7" />
+            <label for="question-1"
+              >O especismo influencia a escolha de alimentos baseados na
+              exploração animal</label
+            >
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 2</label>
+            <label for="question-1"
+              >O especismo não tem influência na indústria de alimentos.</label
+            >
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 3</label>
-
-            <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 4</label>
+            <label for="question-1"
+              >O especismo é uma forma de proteger os animais na indústria
+              alimentícia.</label
+            >
           </form>
         </div>
 
         <div class="questions-box" id="question-8">
           <div class="title-questions" id="title-formulario-8">
-            <p>Pergunta 8</p>
+            <p>O que é a libertação animal, no contexto do especismo?</p>
           </div>
           <form action="">
-            <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 1</label>
+            <input type="radio" name="question-1" id="esp8" />
+            <label for="question-1"
+              >O movimento que busca libertar os humanos do domínio
+              animal.</label
+            >
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 2</label>
+            <label for="question-1"
+              >O movimento que busca libertar todas as espécies animais do
+              domínio humano.</label
+            >
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 3</label>
+            <label for="question-1"
+              >A prática de libertar animais de estimação em áreas
+              naturais.</label
+            >
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 4</label>
+            <label for="question-1"
+              >A prática de libertar animais selvagens em cativeiro.</label
+            >
           </form>
         </div>
 
         <div class="questions-box" id="question-9">
           <div class="title-questions" id="title-formulario-9">
-            <p>Pergunta 9</p>
+            <p>Quais são as alternativas ao especismo?</p>
           </div>
           <form action="">
-            <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 1</label>
+            <input type="radio" name="question-1" id="esp9" />
+            <label for="question-1"
+              >Veganismo e respeito pelos direitos animais.</label
+            >
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 2</label>
+            <label for="question-1"
+              >Descarte indiscriminado de animais de estimação.</label
+            >
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 3</label>
+            <label for="question-1"
+              >Exclusividade de cuidados com animais em extinção</label
+            >
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 4</label>
+            <label for="question-1">Todas as anteriores</label>
           </form>
         </div>
 
         <div class="questions-box" id="question-10">
           <div class="title-questions" id="title-formulario-10">
-            <p>Pergunta 10</p>
+            <p>Como é possível combater o especismo?</p>
           </div>
           <form action="">
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 1</label>
+            <label for="question-1"
+              >Promovendo a conscientização sobre os direitos animais.</label
+            >
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 2</label>
+            <label for="question-1"
+              >Adotando medidas legais que protejam os animais de
+              exploração.</label
+            >
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 3</label>
+            <label for="question-1"
+              >Apoiando organizações e movimentos que lutam contra o
+              especismo.</label
+            >
 
-            <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 4</label>
+            <input type="radio" name="question-1" id="esp10" />
+            <label for="question-1">Todas as anteriores.</label>
           </form>
         </div>
 
@@ -703,190 +869,268 @@
 
       <section class="forms" id="xenofobia">
         <div class="questions-box" id="question-1">
-          <div class="title-questions"><p>cccccccccccccccccccccc</p></div>
+          <div class="title-questions"><p>O que é xenofobia?</p></div>
           <form action="">
-            <input type="radio" name="question-1" id="" />
-            <label for="question-1">Adolf Hitler </label>
+            <input type="radio" name="question-1" id="xen1" />
+            <label for="question-1"
+              >Trata-se de um problema social baseado na intolerância e/ou
+              discriminação social, frente a determinadas nacionalidades ou
+              culturas.
+            </label>
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Benito Mussolini </label>
+            <label for="question-1"
+              >Qualquer ato ou manifestação de ódio, aversão, repulsa, rejeição
+              ou medo (muitas vezes irracional) contra os homossexuais, gays,
+              lésbicas, bissexuais, travestis e transexuais, o que tem levado a
+              muitos tipos de violência, seja social, psicológica ou física.
+            </label>
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Joseph Stalin </label>
+            <label for="question-1"
+              >Preconceito, discriminação ou antagonismo por parte de um
+              indivíduo, comunidade ou instituição contra uma pessoa ou pessoas
+              pelo fato de pertencer a um determinado grupo racial ou étnico,
+              tipicamente marginalizado ou uma minoria.
+            </label>
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Winston Churchill </label>
+            <label for="question-1"
+              >Comportamento que rejeita a igualdade de condições sociais e
+              direitos entre homens e mulheres.
+            </label>
           </form>
         </div>
 
         <div class="questions-box" id="question-2">
           <div class="title-questions" id="title-formulario-2">
-            <p>Pergunta 2</p>
+            <p>Quais as maneiras que pode se expressar a xenofobia?</p>
           </div>
           <form action="">
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 1</label>
+            <label for="question-1"
+              >Ciúme excessivo e invasão de privacidade.</label
+            >
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 2</label>
+            <label for="question-1">Chantagem e ciúme excessivo</label>
+
+            <input type="radio" name="question-1" id="xen2" />
+            <label for="question-1"
+              >Agressões físicas e agressões verbais.</label
+            >
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 3</label>
-
-            <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 4</label>
+            <label for="question-1">Invasão de privacidade e chantagem.</label>
           </form>
         </div>
 
         <div class="questions-box" id="question-3">
           <div class="title-questions" id="title-formulario-3">
-            <p>Pergunta 3</p>
+            <p>Qual século a xenofobia esta sendo mais exposta?</p>
           </div>
           <form action="">
-            <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 1</label>
+            <input type="radio" name="question-1" id="xen3" />
+            <label for="question-1">XIX</label>
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 2</label>
+            <label for="question-1">XX</label>
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 3</label>
+            <label for="question-1">XXI</label>
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 4</label>
+            <label for="question-1">XXII</label>
           </form>
         </div>
 
         <div class="questions-box" id="question-4">
           <div class="title-questions" id="title-formulario-4">
-            <p>Pergunta 4</p>
+            <p>
+              Por qual motivo a xenofobia esta sendo mais presente nos dias
+              atuais?
+            </p>
           </div>
           <form action="">
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 1</label>
+            <label for="question-1"
+              >Devido o avanço da informação e das resdes sociais.</label
+            >
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 2</label>
+            <label for="question-1"
+              >Devido a religiosidade e o moralismo gerando um incomodo por não
+              aceitarem a sexualidade alheia.</label
+            >
+
+            <input type="radio" name="question-1" id="xen4" />
+            <label for="question-1"
+              >Pode ser associada, principalmente, à longa escravização de povos
+              de origem africana e a tardia abolição da escravidão, que foi
+              feita de maneira irresponsável, pois não se preocupou em inserir
+              os escravos libertos na educação e no mercado de trabalho,
+              resultando em um sistema de marginalização que perdura até
+              hoje.</label
+            >
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 3</label>
-
-            <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 4</label>
+            <label for="question-1"
+              >Devido a desigualdade de gênero, a partir das ideias construídas
+              de gênero e relação, expondo a desigualdade sexual e diferença
+              entre homens e mulheres,</label
+            >
           </form>
         </div>
 
         <div class="questions-box" id="question-5">
           <div class="title-questions" id="title-formulario-5">
-            <p>Pergunta 5</p>
+            <p>Quais motivos leva uma pessoa a cometer xenofobia?</p>
           </div>
           <form action="">
-            <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 1</label>
+            <input type="radio" name="question-1" id="xen5" />
+            <label for="question-1"
+              >Desinformação, medo, sentimento de superioridade.</label
+            >
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 2</label>
+            <label for="question-1"
+              >Cultura patriarcal, medo e depressão.</label
+            >
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 3</label>
+            <label for="question-1"
+              >Sentimento de superioridade, traumas emocionais e dificuldade de
+              linguagem.</label
+            >
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 4</label>
+            <label for="question-1"
+              >Desinformação, uso de drogas e cultura patriarcal.</label
+            >
           </form>
         </div>
 
         <div class="questions-box" id="question-6">
           <div class="title-questions" id="title-formulario-6">
-            <p>Pergunta 6</p>
+            <p>
+              Agora, sobre o Dialogo sobre a Xenofobia. O que o vizinho falou da
+              fala do Dono da casa ao lado?
+            </p>
           </div>
           <form action="">
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 1</label>
+            <label for="question-1">Quer ajuda com a mudança?</label>
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 2</label>
+            <label for="question-1"
+              >Você fez muito barulho durante a noite.</label
+            >
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 3</label>
+            <label for="question-1">Você veio de onde?</label>
 
-            <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 4</label>
+            <input type="radio" name="question-1" id="xen6" />
+            <label for="question-1"
+              >Que ele falava de forma engraçada parecendo que ele esta
+              cantando.</label
+            >
           </form>
         </div>
 
         <div class="questions-box" id="question-7">
           <div class="title-questions" id="title-formulario-7">
-            <p>Pergunta 7</p>
+            <p>
+              Quais as diferenças que o vizinho cita para o dono da casa ao
+              lado?
+            </p>
           </div>
           <form action="">
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 1</label>
+            <label for="question-1">Inteligência, cultura, educação.</label>
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 2</label>
+            <label for="question-1">Pobreza, miséria e espólio.</label>
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 3</label>
+            <label for="question-1">Maldade, miséria e espólio.</label>
 
-            <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 4</label>
+            <input type="radio" name="question-1" id="xen7" />
+            <label for="question-1">Maneira de falar, cultura , pobreza.</label>
           </form>
         </div>
 
         <div class="questions-box" id="question-8">
           <div class="title-questions" id="title-formulario-8">
-            <p>Pergunta 8</p>
+            <p>
+              De que maneira o vizinho tenta se justificar quando o dono da casa
+              diz que ele foi xenofobico?
+            </p>
           </div>
           <form action="">
-            <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 1</label>
+            <input type="radio" name="question-1" id="xen8" />
+            <label for="question-1"
+              >Não é verdade, eu até tenho parentes que são nordestinos.</label
+            >
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 2</label>
+            <label for="question-1"
+              >Não é nada disso, só quis brinca com você.</label
+            >
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 3</label>
+            <label for="question-1"
+              >Não é isso, eu acho que o ser humano tem por natureza uma certa
+              aversão ao diferente ou desconhecido.</label
+            >
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 4</label>
+            <label for="question-1"
+              >Não leve isso tão à serio,foi só uma opinião.</label
+            >
           </form>
         </div>
 
         <div class="questions-box" id="question-9">
           <div class="title-questions" id="title-formulario-9">
-            <p>Pergunta 9</p>
+            <p>A xenofobia gera falta de desinformação?</p>
           </div>
           <form action="">
-            <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 1</label>
+            <input type="radio" name="question-1" id="xen9" />
+            <label for="question-1">Verdadeiro</label>
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 2</label>
-
-            <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 3</label>
-
-            <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 4</label>
+            <label for="question-1"> Falso</label>
           </form>
         </div>
 
         <div class="questions-box" id="question-10">
           <div class="title-questions" id="title-formulario-10">
-            <p>Pergunta 10</p>
+            <p>O que pode ser uma alternativa sobre a xenofobia?</p>
           </div>
           <form action="">
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 1</label>
+            <label for="question-1"
+              >Criar programas de qualificação de preenchimento e coleta de
+              dados sobre a população negra.</label
+            >
+
+            <input type="radio" name="question-1" id="xen10" />
+            <label for="question-1"
+              >Deveriamos encorajar a inclusão e a compreensão mútua.</label
+            >
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 2</label>
+            <label for="question-1"
+              >Ria de piadas com tons preconceituosos, não corrija falas
+              problemáticas e nem defenda pessoas que estão sendo
+              vítimas.</label
+            >
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 3</label>
-
-            <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 4</label>
+            <label for="question-1"
+              >Saia de perto de quem é ''diferente'', afinal, não tem como
+              cometer preconceito se você evitar a vítima.</label
+            >
           </form>
         </div>
 
@@ -898,190 +1142,197 @@
 
       <section class="forms" id="intolerancia">
         <div class="questions-box" id="question-1">
-          <div class="title-questions"><p>ddddddddddddddd</p></div>
+          <div class="title-questions">
+            <p>Qual é a religião mais praticada no mundo?</p>
+          </div>
           <form action="">
-            <input type="radio" name="question-1" id="" />
-            <label for="question-1">Adolf Hitler </label>
+            <input type="radio" name="question-1" id="int1" />
+            <label for="question-1">Cristianismo </label>
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Benito Mussolini </label>
+            <label for="question-1">Hinduísmo </label>
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Joseph Stalin </label>
+            <label for="question-1">Islamismo </label>
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Winston Churchill </label>
+            <label for="question-1">Budismo </label>
           </form>
         </div>
 
         <div class="questions-box" id="question-2">
           <div class="title-questions" id="title-formulario-2">
-            <p>Pergunta 2</p>
+            <p>
+              Qual é o país com maior número de casos de intolerância religiosa?
+            </p>
           </div>
           <form action="">
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 1</label>
+            <label for="question-1">Estados Unidos</label>
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 2</label>
+            <label for="question-1">Brasil</label>
+
+            <input type="radio" name="question-1" id="int2" />
+            <label for="question-1">Índia</label>
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 3</label>
-
-            <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 4</label>
+            <label for="question-1">Nigéria</label>
           </form>
         </div>
 
         <div class="questions-box" id="question-3">
           <div class="title-questions" id="title-formulario-3">
-            <p>Pergunta 3</p>
+            <p>Qual religião tem como livro sagrado a Torá?</p>
           </div>
           <form action="">
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 1</label>
+            <label for="question-1">Islamismo</label>
+
+            <input type="radio" name="question-1" id="int3" />
+            <label for="question-1">Judaísmo </label>
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 2</label>
+            <label for="question-1">Cristianismo</label>
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 3</label>
-
-            <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 4</label>
+            <label for="question-1">Hinduísmo</label>
           </form>
         </div>
 
         <div class="questions-box" id="question-4">
           <div class="title-questions" id="title-formulario-4">
-            <p>Pergunta 4</p>
+            <p>Qual é o símbolo sagrado do hinduísmo?</p>
           </div>
           <form action="">
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 1</label>
+            <label for="question-1">Cruz</label>
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 2</label>
+            <label for="question-1">Estrela de Davi</label>
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 3</label>
+            <label for="question-1">Meia-lua e estrela</label>
 
-            <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 4</label>
+            <input type="radio" name="question-1" id="int4" />
+            <label for="question-1">Om</label>
           </form>
         </div>
 
         <div class="questions-box" id="question-5">
           <div class="title-questions" id="title-formulario-5">
-            <p>Pergunta 5</p>
+            <p>Em qual país a intolerância religiosa é proibida por lei?</p>
           </div>
           <form action="">
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 1</label>
+            <label for="question-1">Austrália</label>
+
+            <input type="radio" name="question-1" id="int5" />
+            <label for="question-1">Canadá</label>
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 2</label>
+            <label for="question-1">Alemanha</label>
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 3</label>
-
-            <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 4</label>
+            <label for="question-1">França</label>
           </form>
         </div>
 
         <div class="questions-box" id="question-6">
           <div class="title-questions" id="title-formulario-6">
-            <p>Pergunta 6</p>
+            <p>Qual é o fundamento básico do budismo?</p>
           </div>
           <form action="">
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 1</label>
+            <label for="question-1">Adoração a múltiplos deuses</label>
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 2</label>
+            <label for="question-1">Obediência aos Dez Mandamentos</label>
+
+            <input type="radio" name="question-1" id="int6" />
+            <label for="question-1">Realização da Iluminação</label>
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 3</label>
-
-            <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 4</label>
+            <label for="question-1">Fé em Jesus Cristo como salvador</label>
           </form>
         </div>
 
         <div class="questions-box" id="question-7">
           <div class="title-questions" id="title-formulario-7">
-            <p>Pergunta 7</p>
+            <p>Qual é a religião predominante na Indonésia?</p>
           </div>
           <form action="">
-            <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 1</label>
+            <input type="radio" name="question-1" id="int7" />
+            <label for="question-1">Islamismo</label>
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 2</label>
+            <label for="question-1">Budismo</label>
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 3</label>
+            <label for="question-1">Hinduísmo</label>
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 4</label>
+            <label for="question-1">Cristianismo</label>
           </form>
         </div>
 
         <div class="questions-box" id="question-8">
           <div class="title-questions" id="title-formulario-8">
-            <p>Pergunta 8</p>
+            <p>Qual é o livro sagrado do islamismo?</p>
           </div>
           <form action="">
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 1</label>
+            <label for="question-1">Bíblia</label>
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 2</label>
+            <label for="question-1">Torá</label>
+
+            <input type="radio" name="question-1" id="int8" />
+            <label for="question-1">Alcorão</label>
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 3</label>
-
-            <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 4</label>
+            <label for="question-1">Vedas</label>
           </form>
         </div>
 
         <div class="questions-box" id="question-9">
           <div class="title-questions" id="title-formulario-9">
-            <p>Pergunta 9</p>
+            <p>Qual é a religião predominante no Brasil?</p>
           </div>
           <form action="">
-            <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 1</label>
+            <input type="radio" name="question-1" id="int9" />
+            <label for="question-1">Cristianismo</label>
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 2</label>
+            <label for="question-1">Islamismo</label>
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 3</label>
+            <label for="question-1">Judaísmo</label>
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 4</label>
+            <label for="question-1">Hinduísmo</label>
           </form>
         </div>
 
         <div class="questions-box" id="question-10">
           <div class="title-questions" id="title-formulario-10">
-            <p>Pergunta 10</p>
+            <p>
+              Em que ano foi promulgada a Declaração Universal dos Direitos
+              Humanos, que garante a liberdade religiosa?
+            </p>
           </div>
           <form action="">
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 1</label>
+            <label for="question-1">1945</label>
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 2</label>
+            <label for="question-1">1950</label>
 
             <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 3</label>
+            <label for="question-1">1965</label>
 
-            <input type="radio" name="question-1" id="" />
-            <label for="question-1">Resposta 4</label>
+            <input type="radio" name="question-1" id="int10" />
+            <label for="question-1">1948</label>
           </form>
         </div>
         <div class="buttons">
@@ -1091,6 +1342,16 @@
       </section>
       <!--Fim Quarta Parte-->
     </main>
+
+    <footer>Copyright &copy; 2023 Educa+ | Todos os direitos reservados</footer>
+    <script>
+      window.gtranslateSettings = {
+        default_language: "pt",
+        languages: ["pt", "en", "ar", "fr", "ru", "es", "zh-CN"],
+        wrapper_selector: ".gtranslate_wrapper",
+        flag_size: 24,
+        alt_flags: { en: "usa", pt: "brazil" },
+      };
+    </script>
   </body>
-  <footer>Copyright &copy; 2023 Educa+ | Todos os direitos reservados</footer>
 </html>

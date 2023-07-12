@@ -48,7 +48,7 @@ body {
 }
 select {
   border: none;
-  border-radius: 20px;
+  border-radius: 10px;
   appearance: none;
   padding: 10px 15px;
   width: 100%;
@@ -72,7 +72,7 @@ select:hover {
   align-items: center;
   justify-content: center;
   background-color: rgb(172, 250, 130);
-  border-radius: 20px;
+  border-radius: 10px;
 }
 .icon-container i {
   position: relative;
@@ -93,6 +93,13 @@ select:hover {
   gap: 1.5rem;
   width: 350px;
   margin: 0 auto;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.45);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 1);
 }
 .title-questions {
   display: flex;
