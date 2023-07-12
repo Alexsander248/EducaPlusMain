@@ -213,6 +213,7 @@ html {
   white-space: nowrap;
   background-color: var(--cor-da-barrinha2);
   cursor: pointer;
+  color: #000;
 }
 
 .img-card {
